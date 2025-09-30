@@ -1,0 +1,19 @@
+
+
+p{
+    color:black ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#r, #p, #q{
+    color:rebeccapurple ;
+}
+p:hover{
+    font-family: 'Courier New', Courier, monospace; 
+    color:blue;
+}
+
+#r:hover{
+   font-size: 24px;
+   color:cornflowerblue;
+}
