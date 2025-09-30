@@ -1,0 +1,21 @@
+p{
+    font-size: 2rem;
+    color: blue;
+}
+
+body{
+    font-size: 2em;
+}
+
+section{
+    border: 5px solid black;
+    width: 50%;
+}
+main{
+    border: 5px dotted black;
+    width: 50%;
+}
+  
+h1{
+    font-size: 2rem;
+}
