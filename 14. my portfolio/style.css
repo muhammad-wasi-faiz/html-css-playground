@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  "Roboto", sans-serif;
+    color: aliceblue;
+    box-sizing: border-box;
+}
+
+body{
+        background:linear-gradient(to top right, #222, #3f3f3f)
+}
+
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav a:hover{
+    color: gold;
+    transition: all 0.3s ease-in-out;
+    font-weight: 800;
+}
+
+nav {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    color: aliceblue;
+}
+
+nav h2{
+    display: inline;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.name img{
+    width: 50px;
+    border-radius: 50%;
+    
+}
+
+.name h2:hover{
+    color: gold;
+    transition: all 0.3s ease-in-out;
+    font-weight: 800;
+}
+
+.links{
+    display: flex;
+    gap: 35px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-right img {
+  width: 400px;
+  box-shadow: 0 0 25px gold, 0 0 50px gold;
+}
+
+
+.header-left{
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button{
+    display: flex;
+    margin-top: 60px;
+    max-width: fit-content;
+    padding: 15px;
+    border: 2px solid aliceblue;
+    border-radius: 12px;
+    transition: all 0.2s ease-in;
+}
+
+.button:hover{
+    background-color: gold;
+    color:black;
+    border: 2px solid black;
+}
+
+.about{
+    display: flex;
+    margin-top: 60px;
+    padding: 60px;
+    max-width: 800px;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size: x-large;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 100px 50px 100px 50px;
+    gap: 300px;
+}
+
+.text{
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    font-size: x-large;
+}
+
+
+.imgs{
+    flex-basis: 50%;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(4, 100px);
+    grid-auto-rows: 150px;
+    grid-template-areas: "sn sn pc pc"
+                         "uh uh uh uh"
+                         "wg wg wg wg";
+}
+
+.box{
+    background-size: cover;
+    background-position:top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: #222;
+    background-blend-mode: soft-light;
+    font-weight: 800;
+    transition: all 1s ease-in-out;
+}
+
+.box:hover {
+    background-color: #999;
+    background-position: center;
+}
+
+.sn{
+    grid-area: sn;
+    background-position: left;
+}
+
+
+.pc{
+    grid-area: pc;
+    background-position: left;
+}
+
+.wg{
+    grid-area: wg;
+}
+
+.uh{
+    grid-area: uh;
+}
+
+
+.foot {
+  background-color: gold;
+  width: 100%;
+  height: 300px;
+  padding: 30px 50px;
+  color: black;
+  font-size: xx-large;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-weight: 500;
+}
+
+.link1{
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+}
+
